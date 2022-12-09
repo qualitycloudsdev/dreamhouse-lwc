@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>QualityCloudsApiSettings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>QualityCloudsApiSettings</value>
+    </caseValues>
+    <fields>
+        <help><!-- Quality Clouds Widgets API Endpoint --></help>
+        <label><!-- API Endpoint Widgets --></label>
+        <name>API_Endpoint_Widgets__c</name>
+    </fields>
+    <fields>
+        <help><!-- Quality Clouds API Endpoint --></help>
+        <label><!-- API Endpoint --></label>
+        <name>API_Endpoint__c</name>
+    </fields>
+    <fields>
+        <help><!-- Quality Clouds Widgets API Version --></help>
+        <label><!-- API Version Widgets --></label>
+        <name>API_Version_Widgets__c</name>
+    </fields>
+    <fields>
+        <help><!-- Quality Clouds API Version --></help>
+        <label><!-- API Version --></label>
+        <name>API_Version__c</name>
+    </fields>
+    <fields>
+        <help><!-- Quality Clouds connectd app callback URL (PROD) --></help>
+        <label><!-- Connectd app callback URL --></label>
+        <name>CallbackURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAuth Expire Time --></label>
+        <name>OAuth_expire_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAuth Refresh Token 2 --></label>
+        <name>OAuth_refresh_token_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAuth Refresh Token 3 --></label>
+        <name>OAuth_refresh_token_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAuth Refresh Token 4 --></label>
+        <name>OAuth_refresh_token_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAuth Refresh Token 5 --></label>
+        <name>OAuth_refresh_token_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAuth Refresh Token --></label>
+        <name>OAuth_refresh_token__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAuth Token 2 --></label>
+        <name>OAuth_token_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAuth Token 3 --></label>
+        <name>OAuth_token_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAuth Token 4 --></label>
+        <name>OAuth_token_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAuth Token 5 --></label>
+        <name>OAuth_token_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAuth Token --></label>
+        <name>OAuth_token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Password --></label>
+        <name>password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Username --></label>
+        <name>username__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

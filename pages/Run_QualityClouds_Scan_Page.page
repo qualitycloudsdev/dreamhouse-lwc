@@ -1,0 +1,7 @@
+<apex:page rendered="true">
+  <apex:image url="{!$Resource.QualityCloudsLogo}" />
+  <br/><br/><br/> <br/>
+    
+  <h1>Please use the New Button to execute the Quality Clouds Scan</h1>
+    
+</apex:page>
