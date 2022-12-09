@@ -47,20 +47,22 @@ private class TestCopadoIntegrationTriggers {
             copado__Project__c project = new copado__Project__c(copado__Deployment_Flow__c = pipe.Id);
             upsert project;
             copado__User_Story__c userStory = new copado__User_Story__c( copado__Project__c = project.Id);
-            upsert userStory;
+            List<copado__User_Story__c> userStoryList = new List<copado__User_Story__c>();
+            userStoryList.add(userStory);
+            upsert userStoryList;
             userStory = [SELECT Id, copado__Project__c, Name FROM copado__User_Story__c WHERE Id = :userStory.Id Limit 1];
-            QCloudsSaaS__Instance__c instance;
-            QCloudsSaaS__Instance__c instancee = new QCloudsSaaS__Instance__c(QCloudsSaaS__url__c='https://github.com/testgit', QCloudsSaaS__Description__c='dec', QCloudsSaaS__Environment_Type__c='dev',QCloudsSaaS__ID__c= '1', QCloudsSaaS__Instance_Type__c='salesforcce', QCloudsSaaS__Is_Featured_Banch__c=true);
-            upsert instance = instancee QCloudsSaaS__ID__c;
+            Instance__c instance;
+            Instance__c instancee = new Instance__c(url__c='https://github.com/testgit', Description__c='dec', Environment_Type__c='dev',ID__c= '1', Instance_Type__c='salesforcce', Is_Featured_Banch__c=true);
+            upsert instance = instancee ID__c;
             StaticResourceCalloutMock mock = new StaticResourceCalloutMock();
             mock.setStaticResource('scanok');
             mock.setStatusCode(202);
             mock.setHeader('Content-Type', 'application/json');
-
-            Run_QualityClouds_Scan_Page_Controller pageController = new Run_QualityClouds_Scan_Page_Controller(new ApexPages.StandardController(userStory));
-
+			
             Test.startTest();
-            pageController.doScan();
+            
+            Run_QualityClouds_Scan_Page_Controller.doScan(userStoryList);
+
             Test.stopTest();
             System.assertEquals('smoke', 'smoke');
         }
@@ -77,11 +79,11 @@ private class TestCopadoIntegrationTriggers {
             copado__User_Story__c userStory = new copado__User_Story__c( copado__Project__c = project.Id);
             upsert userStory;
             userStory = [SELECT Id, copado__Project__c, Name FROM copado__User_Story__c WHERE Id = :userStory.Id Limit 1];
-            QCloudsSaaS__Instance__c instance;
-            QCloudsSaaS__Instance__c instancee = new QCloudsSaaS__Instance__c(QCloudsSaaS__url__c='https://github.com/testgit', QCloudsSaaS__Description__c='dec', QCloudsSaaS__Environment_Type__c='dev',QCloudsSaaS__ID__c= '1', QCloudsSaaS__Instance_Type__c='salesforcce', QCloudsSaaS__Is_Featured_Banch__c=true);
-            upsert instance = instancee QCloudsSaaS__ID__c;
-            QCloudsSaaS__Scann__c scan = new QCloudsSaaS__Scann__c(QCloudsSaaS__ID__c= '1',QCloudsSaaS__Date__c = Datetime.valueOf('2019-07-23 08:25:59'), QCloudsSaaS__State__c='SUCCESS', QCloudsSaaS__Scan_Type__c='feature-branch-scan', QCloudsSaaS__Branch_Name__c='feature/'+userStory.Name, QCloudsSaaS__Instance__c= instance.Id);
-            upsert scan QCloudsSaaS__ID__c;
+            Instance__c instance;
+            Instance__c instancee = new Instance__c(url__c='https://github.com/testgit', Description__c='dec', Environment_Type__c='dev',ID__c= '1', Instance_Type__c='salesforcce', Is_Featured_Banch__c=true);
+            upsert instance = instancee ID__c;
+            Scann__c scan = new Scann__c(ID__c= '1',Date__c = Datetime.valueOf('2019-07-23 08:25:59'), State__c='SUCCESS', Scan_Type__c='feature-branch-scan', Branch_Name__c='feature/'+userStory.Name, Instance__c= instance.Id);
+            upsert scan ID__c;
 
             Test.startTest();
             update scan;
@@ -101,13 +103,13 @@ private class TestCopadoIntegrationTriggers {
             copado__User_Story__c userStory = new copado__User_Story__c( copado__Project__c = project.Id);
             upsert userStory;
             userStory = [SELECT Id, copado__Project__c, Name FROM copado__User_Story__c WHERE Id = :userStory.Id Limit 1];
-            QCloudsSaaS__Instance__c instance;
-            QCloudsSaaS__Instance__c instancee = new QCloudsSaaS__Instance__c(QCloudsSaaS__url__c='https://github.com/testgit', QCloudsSaaS__Description__c='dec', QCloudsSaaS__Environment_Type__c='dev',QCloudsSaaS__ID__c= '1', QCloudsSaaS__Instance_Type__c='salesforcce', QCloudsSaaS__Is_Featured_Banch__c=true);
-            upsert instance = instancee QCloudsSaaS__ID__c;
-            QCloudsSaaS__Scann__c scan = new QCloudsSaaS__Scann__c(QCloudsSaaS__ID__c= '1',QCloudsSaaS__Date__c = Datetime.valueOf('2019-07-23 08:25:59'), QCloudsSaaS__State__c='SUCCESS', QCloudsSaaS__Scan_Type__c='feature-branch-scan', QCloudsSaaS__Branch_Name__c='feature/'+userStory.Name, QCloudsSaaS__Instance__c= instance.Id);
-            upsert scan QCloudsSaaS__ID__c;
-            QCloudsSaaS__QCIssue__c issue = new QCloudsSaaS__QCIssue__c(QCloudsSaaS__Scan__c = scan.id , QCloudsSaaS__ID__c= '2');
-            upsert issue QCloudsSaaS__ID__c;
+            Instance__c instance;
+            Instance__c instancee = new Instance__c(url__c='https://github.com/testgit', Description__c='dec', Environment_Type__c='dev',ID__c= '1', Instance_Type__c='salesforcce', Is_Featured_Banch__c=true);
+            upsert instance = instancee ID__c;
+            Scann__c scan = new Scann__c(ID__c= '1',Date__c = Datetime.valueOf('2019-07-23 08:25:59'), State__c='SUCCESS', Scan_Type__c='feature-branch-scan', Branch_Name__c='feature/'+userStory.Name, Instance__c= instance.Id);
+            upsert scan ID__c;
+            QCIssue__c issue = new QCIssue__c(Scan__c = scan.id , ID__c= '2');
+            upsert issue ID__c;
             Test.startTest();
             update issue;
             Test.stopTest();

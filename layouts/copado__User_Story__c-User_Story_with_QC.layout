@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <customButtons>Run_QualityClouds_Scan</customButtons>
     <customButtons>copado__Commit_Files</customButtons>
     <customButtons>copado__Ready_for_Promotion</customButtons>
     <customButtons>copado__Perform_Validation</customButtons>
@@ -494,18 +493,18 @@
     <relatedLists>
         <fields>NAME</fields>
         <fields>Link_to_Scan__c</fields>
-        <fields>QCloudsSaaS__Branch_Name__c</fields>
-        <fields>QCloudsSaaS__Total_Issues__c</fields>
-        <fields>QCloudsSaaS__Quality_Gate_Result__c</fields>
-        <fields>QCloudsSaaS__Quality_Gate_Message__c</fields>
-        <relatedList>QCloudsSaaS__Scann__c.User_Story__c</relatedList>
+        <fields>Branch_Name__c</fields>
+        <fields>Total_Issues__c</fields>
+        <fields>Quality_Gate_Result__c</fields>
+        <fields>Quality_Gate_Message__c</fields>
+        <relatedList>Scann__c.User_Story__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <fields>QCloudsSaaS__Element_Name__c</fields>
-        <fields>QCloudsSaaS__Issue__c</fields>
+        <fields>Element_Name__c</fields>
+        <fields>Issue__c</fields>
         <fields>Link_to_Issue__c</fields>
-        <relatedList>QCloudsSaaS__QCIssue__c.User_Story__c</relatedList>
+        <relatedList>QCIssue__c.User_Story__c</relatedList>
     </relatedLists>
     <relatedLists>
         <excludeButtons>New</excludeButtons>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
-    <apiVersion>55.0</apiVersion>
+    <apiVersion>49.0</apiVersion>
     <assignments>
         <description>Obtain URL from Copado User Story</description>
         <name>url</name>
@@ -45,7 +45,6 @@
             <label>RepoIsNotNull</label>
         </rules>
     </decisions>
-    <environments>Default</environments>
     <formulas>
         <name>getRepoName</name>
         <dataType>String</dataType>
@@ -90,14 +89,14 @@ RIGHT({!$Record.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Reposi
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
-            <field>QCloudsSaaS__url__c</field>
+            <field>url__c</field>
             <operator>EndsWith</operator>
             <value>
                 <elementReference>repo_name</elementReference>
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>QCloudsSaaS__Instance__c</object>
+        <object>Instance__c</object>
         <queriedFields>Id</queriedFields>
         <queriedFields>Quality_Gates__c</queriedFields>
         <sortField>CreatedDate</sortField>

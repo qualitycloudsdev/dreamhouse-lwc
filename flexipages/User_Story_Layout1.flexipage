@@ -33,6 +33,9 @@
                             <value>CustomButton.copado__User_Story__c.copado__Open_Org</value>
                         </valueListItems>
                         <valueListItems>
+                            <value>copado__User_Story__c.Run_QualityClouds_Scan_Flow</value>
+                        </valueListItems>
+                        <valueListItems>
                             <value>CustomButton.copado__User_Story__c.Run_QualityClouds_Scan</value>
                         </valueListItems>
                         <valueListItems>

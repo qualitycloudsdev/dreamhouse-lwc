@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>help@qualityclouds.com</contactEmail>
+    <contactPhone>+44 20 3290 0456</contactPhone>
+    <description>QualityClouds connection for REST API calls</description>
+    <iconUrl>https://qualitycloudsint.file.force.com/servlet/servlet.ImageServer?id=0158X00000PReKY&amp;oid=00D8X000000FpjF</iconUrl>
+    <label>QualityClouds</label>
+    <logoUrl>https://qualitycloudsint.file.force.com/servlet/servlet.ImageServer?id=0158X00000PReKY&amp;oid=00D8X000000FpjF</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://services-development.qualityclouds.com/sf_instance/code_callback</callbackUrl>
+        <consumerKey>3MVG9X4LnCkfEVVgM5QyCwBzVpLpdCB87rJs3Bgo70p1k.eQF7dUoJ6k94H8T9ZsUfaa0KG8EgO0eiUy6b9Bx</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>
