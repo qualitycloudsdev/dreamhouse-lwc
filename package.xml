@@ -5,10 +5,6 @@
         <name>ExternalServiceRegistration</name>
     </types>
     <types>
-        <members>API_Flow</members>
-        <name>FlowDefinition</name>
-    </types>
-    <types>
         <members>weather_api</members>
         <name>NamedCredential</name>
     </types>
