@@ -84,10 +84,6 @@
         <name>Link_to_Element__c</name>
     </fields>
     <fields>
-        <label><!-- Link to Issue --></label>
-        <name>Link_to_Issue__c</name>
-    </fields>
-    <fields>
         <help><!-- Scan the issue is part of --></help>
         <label><!-- Scan --></label>
         <name>Scan__c</name>
@@ -123,11 +119,6 @@
         <help><!-- Date on which the affected element was last updated --></help>
         <label><!-- Updated On --></label>
         <name>Updated_On__c</name>
-    </fields>
-    <fields>
-        <label><!-- User Story --></label>
-        <name>User_Story__c</name>
-        <relationshipLabel><!-- QCIssues --></relationshipLabel>
     </fields>
     <fields>
         <help><!-- Write Off Request Description --></help>

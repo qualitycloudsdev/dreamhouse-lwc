@@ -40,10 +40,6 @@
         <relationshipLabel><!-- Scans --></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Link to Scan --></label>
-        <name>Link_to_Scan__c</name>
-    </fields>
-    <fields>
         <label><!-- Quality Gate Message --></label>
         <name>Quality_Gate_Message__c</name>
     </fields>
@@ -76,11 +72,6 @@
         <help><!-- Number of issues detected in the scan --></help>
         <label><!-- Total Issues --></label>
         <name>Total_Issues__c</name>
-    </fields>
-    <fields>
-        <label><!-- User Story --></label>
-        <name>User_Story__c</name>
-        <relationshipLabel><!-- Scans --></relationshipLabel>
     </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

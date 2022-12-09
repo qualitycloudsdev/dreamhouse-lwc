@@ -3,7 +3,7 @@
     <enableCMSC2CConnections>true</enableCMSC2CConnections>
     <enableChatterFileLink>true</enableChatterFileLink>
     <enableContent>true</enableContent>
-    <enableContentAutoAssign>false</enableContentAutoAssign>
+    <enableContentAutoAssign>true</enableContentAutoAssign>
     <enableContentDistForPortalUsers>false</enableContentDistForPortalUsers>
     <enableContentDistPwOptionsBit1>true</enableContentDistPwOptionsBit1>
     <enableContentDistPwOptionsBit2>true</enableContentDistPwOptionsBit2>
@@ -15,8 +15,9 @@
     <enableFilesUsrShareNetRestricted>false</enableFilesUsrShareNetRestricted>
     <enableJPGPreviews>false</enableJPGPreviews>
     <enableLibraryManagedFiles>false</enableLibraryManagedFiles>
+    <enableShowChatterFilesInContent>false</enableShowChatterFilesInContent>
     <enableSiteGuestUserToUploadFiles>false</enableSiteGuestUserToUploadFiles>
-    <enableUploadFilesOnAttachments>true</enableUploadFilesOnAttachments>
+    <enableUploadFilesOnAttachments>false</enableUploadFilesOnAttachments>
     <setValidContentTypeForAtchDocDownload>false</setValidContentTypeForAtchDocDownload>
     <skipContentAssetTriggers>false</skipContentAssetTriggers>
     <skipContentAssetTriggersOnDeploy>true</skipContentAssetTriggersOnDeploy>

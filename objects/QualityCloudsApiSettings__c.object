@@ -196,5 +196,5 @@
         <unique>false</unique>
     </fields>
     <label>QualityCloudsApiSettings</label>
-    <visibility>Public</visibility>
+    <visibility>Protected</visibility>
 </CustomObject>

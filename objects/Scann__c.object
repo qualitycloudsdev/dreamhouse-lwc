@@ -230,16 +230,6 @@
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
     <fields>
-        <fullName>Link_to_Scan__c</fullName>
-        <externalId>false</externalId>
-        <formula>HYPERLINK(&quot;/apex/ ScanDetail?id=&quot; &amp;   ID__c  &amp; &quot;&amp;id_instance=&quot; &amp;  Instance__r.ID__c  , &quot;Link to Scan&quot;, &quot;blank&quot;)</formula>
-        <label>Link to Scan</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Quality_Gate_Message__c</fullName>
         <externalId>false</externalId>
         <label>Quality Gate Message</label>
@@ -323,18 +313,6 @@
         <trackTrending>false</trackTrending>
         <type>Number</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>User_Story__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>User Story</label>
-        <referenceTo>copado__User_Story__c</referenceTo>
-        <relationshipLabel>Scans</relationshipLabel>
-        <relationshipName>Scans</relationshipName>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
     </fields>
     <label>Scan</label>
     <nameField>

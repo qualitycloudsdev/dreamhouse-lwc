@@ -22,5 +22,5 @@
     </fields>
     <label>QualityCloudsSettings</label>
     <pluralLabel>QualityCloudsSettings</pluralLabel>
-    <visibility>Public</visibility>
+    <visibility>Protected</visibility>
 </CustomObject>

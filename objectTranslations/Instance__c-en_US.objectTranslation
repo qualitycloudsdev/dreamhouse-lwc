@@ -39,10 +39,6 @@
         <name>Is_Featured_Banch__c</name>
     </fields>
     <fields>
-        <label><!-- Quality Gates --></label>
-        <name>Quality_Gates__c</name>
-    </fields>
-    <fields>
         <help><!-- Org URL - Detected automatically during scan. Not available for feature branch scans --></help>
         <label><!-- URL --></label>
         <name>url__c</name>

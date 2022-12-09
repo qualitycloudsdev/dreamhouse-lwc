@@ -53,7 +53,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>GatewayToken</field>
+                <field>GatewayTokenEncrypted</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>

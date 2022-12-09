@@ -226,15 +226,6 @@
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>Quality_Gates__c</fullName>
-        <defaultValue>false</defaultValue>
-        <description>QC Quality Gates is enabled within the instance</description>
-        <externalId>false</externalId>
-        <label>Quality Gates</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>url__c</fullName>
         <description>Org URL - Detected automatically during scan. Not available for feature branch scans</description>
         <externalId>false</externalId>

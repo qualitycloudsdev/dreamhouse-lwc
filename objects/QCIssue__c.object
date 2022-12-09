@@ -316,16 +316,6 @@
         <type>Url</type>
     </fields>
     <fields>
-        <fullName>Link_to_Issue__c</fullName>
-        <externalId>false</externalId>
-        <formula>HYPERLINK(&quot;/apex/ IssueDetail?id=&quot; &amp;   ID__c  &amp; &quot;&amp;id_scan=&quot; &amp;   Scan__r.ID__c  &amp; &quot;&amp;id_instance=&quot; &amp;   Scan__r.Instance__r.ID__c  , &quot;Link to Issue&quot;, &quot;blank&quot;)</formula>
-        <label>Link to Issue</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Scan__c</fullName>
         <description>Scan the issue is part of</description>
         <externalId>false</externalId>
@@ -397,18 +387,6 @@
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>DateTime</type>
-    </fields>
-    <fields>
-        <fullName>User_Story__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>User Story</label>
-        <referenceTo>copado__User_Story__c</referenceTo>
-        <relationshipLabel>QCIssues</relationshipLabel>
-        <relationshipName>QCIssues</relationshipName>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Write_Off_Request_Description__c</fullName>

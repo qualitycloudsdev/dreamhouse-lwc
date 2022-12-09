@@ -5,6 +5,5 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
-    <tabs>standard-Chatter</tabs>
     <tabs>standard-Sites</tabs>
 </CustomApplication>
