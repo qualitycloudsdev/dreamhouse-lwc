@@ -5,6 +5,11 @@
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <label>Run QualityClouds Scan Page</label>
     <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>11</minorNumber>
+        <namespace>QCloudsSaaS</namespace>
+    </packageVersions>
+    <packageVersions>
         <majorNumber>15</majorNumber>
         <minorNumber>0</minorNumber>
         <namespace>copado</namespace>
