@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account_Record_Page</members>
-        <name>FlexiPage</name>
+        <members>weather</members>
+        <name>ExternalServiceRegistration</name>
     </types>
     <types>
-        <members>Get_Weather_API</members>
-        <name>Flow</name>
+        <members>weather_api</members>
+        <name>NamedCredential</name>
     </types>
     <types>
-        <members>Get_Weather_API</members>
-        <name>FlowDefinition</name>
+        <members>Account.Get_Weather</members>
+        <name>QuickAction</name>
     </types>
     <version>56.0</version>
 </Package>
