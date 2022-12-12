@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>CodeBuilder__cancelWaitlistModalCloseButtonLabel</members>
-        <members>CodeBuilder__cancelWaitlistModalConfirmationMessage</members>
+        <members>CallTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>https_postman_co</members>
+        <name>CorsWhitelistOrigin</name>
+    </types>
+    <types>
+        <members>CodeBuilder__assistiveLabelPrompt</members>
         <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>Get_Weather_API</members>
+        <name>FlowDefinition</name>
+    </types>
+    <types>
+        <members>CodeBuilder</members>
+        <members>sf_com_apps</members>
+        <name>InstalledPackage</name>
+    </types>
+    <types>
+        <members>animals_http</members>
+        <name>RemoteSiteSetting</name>
     </types>
     <version>56.0</version>
 </Package>
