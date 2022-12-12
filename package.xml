@@ -1,30 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>CallTest</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>CodeBuilder__CodeBuilderSetting__mdt.CodeBuilder__Value__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>CodeBuilder__Workspace__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>API_Flow</members>
-        <members>Get_Weather_API</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>API_Flow</members>
-        <members>Get_Weather_API</members>
-        <name>FlowDefinition</name>
-    </types>
-    <types>
-        <members>weather_api</members>
-        <name>NamedCredential</name>
+        <members>CodeBuilder__cancelWaitlistModalCloseButtonLabel</members>
+        <members>CodeBuilder__cancelWaitlistModalConfirmationMessage</members>
+        <name>CustomLabel</name>
     </types>
     <version>56.0</version>
 </Package>
