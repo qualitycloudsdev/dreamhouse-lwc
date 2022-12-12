@@ -5,6 +5,14 @@
         <name>ExternalServiceRegistration</name>
     </types>
     <types>
+        <members>Account_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Get_Weather_API</members>
+        <name>Flow</name>
+    </types>
+    <types>
         <members>weather_api</members>
         <name>NamedCredential</name>
     </types>
