@@ -5,12 +5,13 @@
     <enableContactlessExternalIdentityUsers>false</enableContactlessExternalIdentityUsers>
     <enableEnhancedConcealPersonalInfo>false</enableEnhancedConcealPersonalInfo>
     <enableEnhancedPermsetMgmt>false</enableEnhancedPermsetMgmt>
-    <enableEnhancedProfileMgmt>true</enableEnhancedProfileMgmt>
+    <enableEnhancedProfileMgmt>false</enableEnhancedProfileMgmt>
     <enableNewProfileUI>true</enableNewProfileUI>
     <enableProfileFiltering>false</enableProfileFiltering>
     <enableRestrictEmailDomains>false</enableRestrictEmailDomains>
     <enableScrambleUserData>false</enableScrambleUserData>
     <enableUserSelfDeactivate>false</enableUserSelfDeactivate>
+    <permsetsInFieldCreation>false</permsetsInFieldCreation>
     <psaExpirationUIEnabled>true</psaExpirationUIEnabled>
     <restrictedProfileCloning>false</restrictedProfileCloning>
 </UserManagementSettings>

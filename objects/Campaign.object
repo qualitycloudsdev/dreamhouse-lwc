@@ -270,11 +270,6 @@
     </fields>
     <listViews>
         <fullName>AllActiveCampaigns</fullName>
-        <columns>CAMPAIGN.NAME</columns>
-        <columns>CAMPAIGN.START_DATE</columns>
-        <columns>CAMPAIGN.END_DATE</columns>
-        <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
-        <columns>CAMPAIGN.STATUS</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>CAMPAIGN.ACTIVE</field>
@@ -285,11 +280,6 @@
     </listViews>
     <listViews>
         <fullName>MyActiveCampaigns</fullName>
-        <columns>CAMPAIGN.NAME</columns>
-        <columns>CAMPAIGN.START_DATE</columns>
-        <columns>CAMPAIGN.END_DATE</columns>
-        <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
-        <columns>CAMPAIGN.STATUS</columns>
         <filterScope>Mine</filterScope>
         <filters>
             <field>CAMPAIGN.ACTIVE</field>

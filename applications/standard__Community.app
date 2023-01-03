@@ -5,11 +5,9 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
-    <tabs>standard-Chatter</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Idea</tabs>
-    <tabs>standard-IdeaTheme</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
 </CustomApplication>

@@ -6,24 +6,42 @@
         <fullName>New</fullName>
         <default>true</default>
         <label>New</label>
-        <groupingString>None</groupingString>
+        <groupingString>New</groupingString>
     </standardValue>
     <standardValue>
         <fullName>In Progress</fullName>
         <default>false</default>
         <label>In Progress</label>
-        <groupingString>None</groupingString>
+        <groupingString>InProgress</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+        <label>On Hold</label>
+        <groupingString>OnHold</groupingString>
     </standardValue>
     <standardValue>
         <fullName>Completed</fullName>
         <default>false</default>
         <label>Completed</label>
-        <groupingString>None</groupingString>
+        <groupingString>Completed</groupingString>
     </standardValue>
     <standardValue>
         <fullName>Closed</fullName>
         <default>false</default>
         <label>Closed</label>
         <groupingString>Closed</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Cannot Complete</fullName>
+        <default>false</default>
+        <label>Cannot Complete</label>
+        <groupingString>CannotComplete</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Canceled</fullName>
+        <default>false</default>
+        <label>Canceled</label>
+        <groupingString>Canceled</groupingString>
     </standardValue>
 </StandardValueSet>

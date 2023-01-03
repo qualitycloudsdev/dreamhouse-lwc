@@ -72,15 +72,6 @@
     <miniLayout>
         <fields>ParentLocationId</fields>
     </miniLayout>
-    <relatedLists>
-        <fields>Title</fields>
-        <fields>Description</fields>
-        <fields>IconUrl</fields>
-        <fields>IsVisibleInPublic</fields>
-        <fields>SortOrder</fields>
-        <fields>LastModifiedDate</fields>
-        <relatedList>LocationTrustMeasures</relatedList>
-    </relatedLists>
     <relatedObjects>ParentLocationId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>

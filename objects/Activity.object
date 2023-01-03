@@ -114,6 +114,11 @@
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
     <listViews>
+        <fullName>AllActivities</fullName>
+        <filterScope>Team</filterScope>
+        <label>All Activities</label>
+    </listViews>
+    <listViews>
         <fullName>MyActivities</fullName>
         <filterScope>Mine</filterScope>
         <label>My Activities</label>
@@ -132,14 +137,14 @@
         <fullName>TodaysTasks</fullName>
         <filterScope>Mine</filterScope>
         <filters>
-            <field>TASK.CLOSED</field>
-            <operation>equals</operation>
-            <value>0</value>
-        </filters>
-        <filters>
             <field>ACTIVITY.TASK</field>
             <operation>equals</operation>
             <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
         </filters>
         <filters>
             <field>TASK.DUE_DATE</field>

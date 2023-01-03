@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Token to prevent CSRF attacks --></label>
+        <name>CodeBuilder__CSRFToken__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error_State_Info --></label>
+        <name>CodeBuilder__Error_State_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Accessed --></label>
+        <name>CodeBuilder__Last_Accessed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remote Resource ID --></label>
+        <name>CodeBuilder__Remote_Resource_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>CodeBuilder__Status__c</name>
+    </fields>
+    <fields>
+        <help>This is the url of the workspace. Opens in a new window.</help>
+        <label><!-- URL --></label>
+        <name>CodeBuilder__URL__c</name>
+    </fields>
+    <layouts>
+        <layout>Workspace Layout</layout>
+        <sections>
+            <label>Custom Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Workspace name cannot be changed --></errorMessage>
+        <name>CodeBuilder__CannotChangeWorkspaceName</name>
+    </validationRules>
+</CustomObjectTranslation>
