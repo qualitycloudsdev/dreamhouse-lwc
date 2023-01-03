@@ -9,180 +9,187 @@
         <value>QCIssues</value>
     </caseValues>
     <fields>
-        <label><!-- Baseline --></label>
+        <label></label>
         <name>Baseline__c</name>
     </fields>
     <fields>
-        <help><!-- User Id who created the affected element --></help>
-        <label><!-- Created By --></label>
+        <help></help>
+        <label></label>
         <name>Created_By__c</name>
     </fields>
     <fields>
-        <help><!-- Date on which the affected element was created --></help>
-        <label><!-- Created On --></label>
+        <help></help>
+        <label></label>
         <name>Created_On__c</name>
     </fields>
     <fields>
-        <help><!-- Documentation URL --></help>
-        <label><!-- Documentation --></label>
+        <help></help>
+        <label></label>
         <name>Documentation__c</name>
     </fields>
     <fields>
-        <help><!-- Name of the affected element --></help>
-        <label><!-- Element Name --></label>
+        <help></help>
+        <label></label>
         <name>Element_Name__c</name>
     </fields>
     <fields>
-        <help><!-- Type of the affected element --></help>
-        <label><!-- Element Type --></label>
+        <help></help>
+        <label></label>
         <name>Element_Type__c</name>
     </fields>
     <fields>
-        <help><!-- External ID --></help>
-        <label><!-- ID --></label>
+        <help></help>
+        <label></label>
         <name>ID__c</name>
     </fields>
     <fields>
-        <help><!-- Impact Area --></help>
-        <label><!-- Impact Area --></label>
+        <help></help>
+        <label></label>
         <name>Impact_Area__c</name>
         <picklistValues>
             <masterLabel>MANAGEABILITY</masterLabel>
-            <translation><!-- MANAGEABILITY --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>PERFORMANCE</masterLabel>
-            <translation><!-- PERFORMANCE --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>SCALABILITY</masterLabel>
-            <translation><!-- SCALABILITY --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>SECURITY</masterLabel>
-            <translation><!-- SECURITY --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <help><!-- Issue Type --></help>
-        <label><!-- Issue Type --></label>
+        <help></help>
+        <label></label>
         <name>Issue__c</name>
     </fields>
     <fields>
-        <help><!-- Line number where the issue was detected --></help>
-        <label><!-- Line Number --></label>
+        <help></help>
+        <label></label>
         <name>Line_Number__c</name>
     </fields>
     <fields>
-        <help><!-- Link from Quality Clouds API --></help>
-        <label><!-- Link --></label>
+        <help></help>
+        <label></label>
         <name>Link__c</name>
     </fields>
     <fields>
-        <help><!-- Go to Element --></help>
-        <label><!-- Link to Element --></label>
+        <help></help>
+        <label></label>
         <name>Link_to_Element__c</name>
     </fields>
     <fields>
-        <help><!-- Scan the issue is part of --></help>
-        <label><!-- Scan --></label>
+        <help></help>
+        <label></label>
         <name>Scan__c</name>
-        <relationshipLabel><!-- QCIssues --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <help><!-- Severity --></help>
-        <label><!-- Severity --></label>
+        <help></help>
+        <label></label>
         <name>Severity__c</name>
         <picklistValues>
             <masterLabel>HIGH</masterLabel>
-            <translation><!-- HIGH --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>LOW</masterLabel>
-            <translation><!-- LOW --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>MEDIUM</masterLabel>
-            <translation><!-- MEDIUM --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>WARNING</masterLabel>
-            <translation><!-- WARNING --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <help><!-- User Id who last updated the affected element --></help>
-        <label><!-- Updated By --></label>
+        <help></help>
+        <label></label>
         <name>Updated_By__c</name>
     </fields>
     <fields>
-        <help><!-- Date on which the affected element was last updated --></help>
-        <label><!-- Updated On --></label>
+        <help></help>
+        <label></label>
         <name>Updated_On__c</name>
     </fields>
     <fields>
-        <help><!-- Write Off Request Description --></help>
-        <label><!-- Write Off Request Description --></label>
+        <help></help>
+        <label></label>
         <name>Write_Off_Request_Description__c</name>
     </fields>
     <fields>
-        <label><!-- Write Off Request Reason --></label>
+        <label></label>
         <name>Write_Off_Request_Reason__c</name>
         <picklistValues>
             <masterLabel>Complex solution, requires refactoring</masterLabel>
-            <translation><!-- Complex solution, requires refactoring --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Complex to test and validate all situations</masterLabel>
-            <translation><!-- Complex to test and validate all situations --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>False positive rule</masterLabel>
-            <translation><!-- False positive rule --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Insufficient time to fix and test</masterLabel>
-            <translation><!-- Insufficient time to fix and test --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Legacy issue</masterLabel>
-            <translation><!-- Legacy issue --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Others</masterLabel>
-            <translation><!-- Others --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <help><!-- Date/time of write off request. --></help>
-        <label><!-- Write Off Requested Date --></label>
+        <help></help>
+        <label></label>
         <name>Write_Off_Requested_Date__c</name>
     </fields>
     <fields>
-        <help><!-- User who requested write off --></help>
-        <label><!-- Write Off Requester --></label>
+        <help></help>
+        <label></label>
         <name>Write_Off_Requester__c</name>
     </fields>
     <fields>
-        <label><!-- Write Off Status --></label>
+        <label></label>
         <name>Write_Off_Status__c</name>
     </fields>
     <fields>
-        <label><!-- Write Off Validation Date --></label>
+        <label></label>
         <name>Write_Off_Validation_Date__c</name>
     </fields>
     <fields>
-        <label><!-- Write Off Validation Reason --></label>
+        <label></label>
         <name>Write_Off_Validation_Reason__c</name>
     </fields>
     <fields>
-        <label><!-- Write Off Validator --></label>
+        <label></label>
         <name>Write_Off_Validator__c</name>
     </fields>
     <fields>
-        <help><!-- Write off --></help>
-        <label><!-- Write off --></label>
+        <help></help>
+        <label></label>
         <name>Write_off__c</name>
     </fields>
+    <layouts>
+        <layout>QCIssue Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

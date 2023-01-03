@@ -9,69 +9,76 @@
         <value>Scans</value>
     </caseValues>
     <fields>
-        <help><!-- Branch scanned. Only available for feature branch scans --></help>
-        <label><!-- Branch Name --></label>
+        <help></help>
+        <label></label>
         <name>Branch_Name__c</name>
     </fields>
     <fields>
-        <help><!-- Number of Configuration Elements analysed --></help>
-        <label><!-- Configuration Elements --></label>
+        <help></help>
+        <label></label>
         <name>Configuration_Elements__c</name>
     </fields>
     <fields>
-        <help><!-- Scan date --></help>
-        <label><!-- Scan Date --></label>
+        <help></help>
+        <label></label>
         <name>Date__c</name>
     </fields>
     <fields>
-        <help><!-- Duration of the Scan --></help>
-        <label><!-- Duration --></label>
+        <help></help>
+        <label></label>
         <name>Duration__c</name>
     </fields>
     <fields>
-        <help><!-- Internal scan id. Used only for technical support --></help>
-        <label><!-- Internal ID --></label>
+        <help></help>
+        <label></label>
         <name>ID__c</name>
     </fields>
     <fields>
-        <help><!-- Instance for this scann --></help>
-        <label><!-- Instance --></label>
+        <help></help>
+        <label></label>
         <name>Instance__c</name>
-        <relationshipLabel><!-- Scans --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Quality Gate Message --></label>
+        <label></label>
         <name>Quality_Gate_Message__c</name>
     </fields>
     <fields>
-        <help><!-- Quality Gate Result --></help>
-        <label><!-- Quality Gate Result --></label>
+        <help></help>
+        <label></label>
         <name>Quality_Gate_Result__c</name>
     </fields>
     <fields>
-        <help><!-- Overall quality indicator, not available for feature branch scans --></help>
-        <label><!-- Quality of Cloud --></label>
+        <help></help>
+        <label></label>
         <name>Quality_of_Cloud__c</name>
     </fields>
     <fields>
-        <help><!-- Scan Type --></help>
-        <label><!-- Scan Type --></label>
+        <help></help>
+        <label></label>
         <name>Scan_Type__c</name>
     </fields>
     <fields>
-        <help><!-- Result of the scan --></help>
-        <label><!-- Scan Result --></label>
+        <help></help>
+        <label></label>
         <name>State__c</name>
     </fields>
     <fields>
-        <help><!-- Development time to fix the detected issues --></help>
-        <label><!-- Technical Debt (hours) --></label>
+        <help></help>
+        <label></label>
         <name>Technical_Debt_hours__c</name>
     </fields>
     <fields>
-        <help><!-- Number of issues detected in the scan --></help>
-        <label><!-- Total Issues --></label>
+        <help></help>
+        <label></label>
         <name>Total_Issues__c</name>
     </fields>
+    <layouts>
+        <layout>Scann Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

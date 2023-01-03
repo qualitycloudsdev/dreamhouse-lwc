@@ -186,6 +186,6 @@
         <filterScope>Mine</filterScope>
         <label>My Consumption Schedules</label>
     </listViews>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>Read</sharingModel>
 </CustomObject>
