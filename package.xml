@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>sf_devops__activityAdHocPromoteWorkItemFailed</members>
-        <members>sf_devops__activityAdHocPromoteWorkItemInit</members>
-        <members>sf_devops__clearFilters</members>
-        <members>sf_devops__clickToConnect</members>
-        <name>CustomLabel</name>
+        <members>Test_Run_QualityClouds_Scan_Controller</members>
+        <members>globalCallsToQC</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Run_QualityClouds_Scan_Page</members>
+        <name>ApexPage</name>
     </types>
     <version>56.0</version>
 </Package>
