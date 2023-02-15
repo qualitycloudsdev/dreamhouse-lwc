@@ -124,4 +124,12 @@
         <name>Workbench</name>
         <type>ConnectedApp</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Quality_Clouds</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>QualityClouds</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
 </AppMenu>
