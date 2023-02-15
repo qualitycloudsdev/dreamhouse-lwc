@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>weather</members>
-        <name>ExternalServiceRegistration</name>
+        <members>sf_devops__active</members>
+        <members>sf_devops__activity</members>
+        <name>CustomLabel</name>
     </types>
     <version>56.0</version>
 </Package>
