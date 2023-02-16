@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>standard-PaymentAuthAdjustment</members>
-        <members>standard-PaymentAuthorization</members>
-        <members>standard-PaymentGateway</members>
-        <members>standard-PaymentGatewayLog</members>
-        <members>standard-PaymentLineInvoice</members>
-        <name>CustomTab</name>
+        <members>Test_Run_QualityClouds_Scan_Controller</members>
+        <members>globalCallsToQC</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Run_QualityClouds_Scan_Page</members>
+        <name>ApexPage</name>
     </types>
     <version>56.0</version>
 </Package>
