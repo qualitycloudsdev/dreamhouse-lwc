@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalServiceRegistration xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>weather</label>
+    <namedCredential>weather_api</namedCredential>
+    <operations>
+        <active>true</active>
+        <name>getv1currentx2ejson</name>
+    </operations>
+    <registrationProviderType>Custom</registrationProviderType>
+    <schema>{
+  &quot;openapi&quot;: &quot;3.0.1&quot;,
+  &quot;info&quot;: {
+    &quot;title&quot;: &quot;defaultTitle&quot;,
+    &quot;description&quot;: &quot;defaultDescription&quot;,
+    &quot;version&quot;: &quot;0.1&quot;
+  },
+  &quot;servers&quot;: [{
+    &quot;url&quot;: &quot;http://api.weatherapi.com&quot;
+  }],
+  &quot;paths&quot;: {
+    &quot;/v1/current.json&quot;: {
+      &quot;get&quot;: {
+        &quot;description&quot;: &quot;Auto generated using Swagger Inspector&quot;,
+        &quot;parameters&quot;: [{
+            &quot;name&quot;: &quot;q&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: false,
+            &quot;style&quot;: &quot;form&quot;,
+            &quot;explode&quot;: true,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;example&quot;: &quot;London&quot;
+          },
+          {
+            &quot;name&quot;: &quot;aqi&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: false,
+            &quot;style&quot;: &quot;form&quot;,
+            &quot;explode&quot;: true,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;example&quot;: &quot;no&quot;
+          },
+          {
+            &quot;name&quot;: &quot;key&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: false,
+            &quot;style&quot;: &quot;form&quot;,
+            &quot;explode&quot;: true,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            },
+            &quot;example&quot;: &quot;4278709d11f940c1b2f92538221711&quot;
+          }
+        ],
+        &quot;responses&quot;: {
+          &quot;200&quot;: {
+            &quot;description&quot;: &quot;Auto generated using Swagger Inspector&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/inline_response_200&quot;
+                },
+                &quot;examples&quot;: {
+                  &quot;0&quot;: {
+                    &quot;value&quot;: &quot;{\&quot;location\&quot;:{\&quot;name\&quot;:\&quot;London\&quot;,\&quot;region\&quot;:\&quot;City of London, Greater London\&quot;,\&quot;country\&quot;:\&quot;United Kingdom\&quot;,\&quot;lat\&quot;:51.52,\&quot;lon\&quot;:-0.11,\&quot;tz_id\&quot;:\&quot;Europe/London\&quot;,\&quot;localtime_epoch\&quot;:1668677334,\&quot;localtime\&quot;:\&quot;2022-11-17 9:28\&quot;},\&quot;current\&quot;:{\&quot;last_updated_epoch\&quot;:1668676500,\&quot;last_updated\&quot;:\&quot;2022-11-17 09:15\&quot;,\&quot;temp_c\&quot;:9.0,\&quot;temp_f\&quot;:48.2,\&quot;is_day\&quot;:1,\&quot;condition\&quot;:{\&quot;text\&quot;:\&quot;Light rain\&quot;,\&quot;icon\&quot;:\&quot;//cdn.weatherapi.com/weather/64x64/day/296.png\&quot;,\&quot;code\&quot;:1183},\&quot;wind_mph\&quot;:19.2,\&quot;wind_kph\&quot;:31.0,\&quot;wind_degree\&quot;:260,\&quot;wind_dir\&quot;:\&quot;W\&quot;,\&quot;pressure_mb\&quot;:983.0,\&quot;pressure_in\&quot;:29.03,\&quot;precip_mm\&quot;:0.2,\&quot;precip_in\&quot;:0.01,\&quot;humidity\&quot;:87,\&quot;cloud\&quot;:75,\&quot;feelslike_c\&quot;:5.7,\&quot;feelslike_f\&quot;:42.2,\&quot;vis_km\&quot;:10.0,\&quot;vis_miles\&quot;:6.0,\&quot;uv\&quot;:2.0,\&quot;gust_mph\&quot;:21.3,\&quot;gust_kph\&quot;:34.2}}&quot;
+                  }
+                }
+              }
+            }
+          }
+        },
+        &quot;servers&quot;: [{
+          &quot;url&quot;: &quot;http://api.weatherapi.com&quot;
+        }]
+      },
+      &quot;servers&quot;: [{
+        &quot;url&quot;: &quot;http://api.weatherapi.com&quot;
+      }]
+    }
+  },
+  &quot;components&quot;: {
+    &quot;schemas&quot;: {
+      &quot;inline_response_200&quot;: {
+        &quot;type&quot;: &quot;object&quot;,
+        &quot;properties&quot;: {
+          &quot;current&quot;: {
+            &quot;type&quot;: &quot;object&quot;,
+            &quot;properties&quot;: {
+              &quot;feelslike_c&quot;: {
+                &quot;type&quot;: &quot;number&quot;
+              },
+              &quot;uv&quot;: {
+                &quot;type&quot;: &quot;number&quot;
+              },
+              &quot;last_updated&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;feelslike_f&quot;: {
+                &quot;type&quot;: &quot;number&quot;
+              },
+              &quot;wind_degree&quot;: {
+                &quot;type&quot;: &quot;integer&quot;
+              },
+              &quot;last_updated_epoch&quot;: {
+                &quot;type&quot;: &quot;integer&quot;
+              },
+              &quot;is_day&quot;: {
+                &quot;type&quot;: &quot;integer&quot;
+              },
+              &quot;precip_in&quot;: {
+                &quot;type&quot;: &quot;number&quot;
+              },
+              &quot;wind_dir&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;gust_mph&quot;: {
+                &quot;type&quot;: &quot;number&quot;
+              },
+              &quot;temp_c&quot;: {
+                &quot;type&quot;: &quot;number&quot;
+              },
+              &quot;pressure_in&quot;: {
+                &quot;type&quot;: &quot;number&quot;
+              },
+              &quot;gust_kph&quot;: {
+                &quot;type&quot;: &quot;number&quot;
+              },
+              &quot;temp_f&quot;: {
+                &quot;type&quot;: &quot;number&quot;
+              },
+              &quot;precip_mm&quot;: {
+                &quot;type&quot;: &quot;number&quot;
+              },
+              &quot;cloud&quot;: {
+                &quot;type&quot;: &quot;integer&quot;
+              },
+              &quot;wind_kph&quot;: {
+                &quot;type&quot;: &quot;number&quot;
+              },
+              &quot;condition&quot;: {
+                &quot;type&quot;: &quot;object&quot;,
+                &quot;properties&quot;: {
+                  &quot;code&quot;: {
+                    &quot;type&quot;: &quot;integer&quot;
+                  },
+                  &quot;icon&quot;: {
+                    &quot;type&quot;: &quot;string&quot;
+                  },
+                  &quot;text&quot;: {
+                    &quot;type&quot;: &quot;string&quot;
+                  }
+                }
+              },
+              &quot;wind_mph&quot;: {
+                &quot;type&quot;: &quot;number&quot;
+              },
+              &quot;vis_km&quot;: {
+                &quot;type&quot;: &quot;number&quot;
+              },
+              &quot;humidity&quot;: {
+                &quot;type&quot;: &quot;integer&quot;
+              },
+              &quot;pressure_mb&quot;: {
+                &quot;type&quot;: &quot;number&quot;
+              },
+              &quot;vis_miles&quot;: {
+                &quot;type&quot;: &quot;number&quot;
+              }
+            }
+          },
+          &quot;location&quot;: {
+            &quot;type&quot;: &quot;object&quot;,
+            &quot;properties&quot;: {
+              &quot;localtime&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;country&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;localtime_epoch&quot;: {
+                &quot;type&quot;: &quot;integer&quot;
+              },
+              &quot;name&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;lon&quot;: {
+                &quot;type&quot;: &quot;number&quot;
+              },
+              &quot;region&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              },
+              &quot;lat&quot;: {
+                &quot;type&quot;: &quot;number&quot;
+              },
+              &quot;tz_id&quot;: {
+                &quot;type&quot;: &quot;string&quot;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}</schema>
+    <schemaType>OpenApi3</schemaType>
+    <serviceBinding>{&quot;compatibleMediaTypes&quot;:{}}</serviceBinding>
+    <status>Complete</status>
+    <systemVersion>3</systemVersion>
+</ExternalServiceRegistration>

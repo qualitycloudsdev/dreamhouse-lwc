@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>API_Endpoint_Widgets__c</fullName>
+        <defaultValue>&quot;https://api.qualityclouds.com/widgets/&quot;</defaultValue>
+        <description>Quality Clouds Widgets API Endpoint</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Quality Clouds Widgets API Endpoint</inlineHelpText>
+        <label>API Endpoint Widgets</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_Endpoint__c</fullName>
+        <defaultValue>&quot;https://scan.qualityclouds.com&quot;</defaultValue>
+        <description>Quality Clouds API Endpoint</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Quality Clouds API Endpoint</inlineHelpText>
+        <label>API Endpoint</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_Version_Widgets__c</fullName>
+        <defaultValue>&quot;v1&quot;</defaultValue>
+        <description>Quality Clouds Widgets API Version</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Quality Clouds Widgets API Version</inlineHelpText>
+        <label>API Version Widgets</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>API_Version__c</fullName>
+        <defaultValue>&quot;v2&quot;</defaultValue>
+        <description>Quality Clouds API Version</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Quality Clouds API Version</inlineHelpText>
+        <label>API Version</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CallbackURL__c</fullName>
+        <defaultValue>&quot;https://scan.qualityclouds.com/sf_instance/code_callback&quot;</defaultValue>
+        <description>Quality Clouds connectd app callback URL (PROD)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Quality Clouds connectd app callback URL (PROD)</inlineHelpText>
+        <label>Connectd app callback URL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OAuth_expire_time__c</fullName>
+        <externalId>false</externalId>
+        <label>OAuth Expire Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>OAuth_refresh_token_2__c</fullName>
+        <externalId>false</externalId>
+        <label>OAuth Refresh Token 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OAuth_refresh_token_3__c</fullName>
+        <externalId>false</externalId>
+        <label>OAuth Refresh Token 3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OAuth_refresh_token_4__c</fullName>
+        <externalId>false</externalId>
+        <label>OAuth Refresh Token 4</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OAuth_refresh_token_5__c</fullName>
+        <externalId>false</externalId>
+        <label>OAuth Refresh Token 5</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OAuth_refresh_token__c</fullName>
+        <externalId>false</externalId>
+        <label>OAuth Refresh Token</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OAuth_token_2__c</fullName>
+        <externalId>false</externalId>
+        <label>OAuth Token 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OAuth_token_3__c</fullName>
+        <externalId>false</externalId>
+        <label>OAuth Token 3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OAuth_token_4__c</fullName>
+        <externalId>false</externalId>
+        <label>OAuth Token 4</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OAuth_token_5__c</fullName>
+        <externalId>false</externalId>
+        <label>OAuth Token 5</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OAuth_token__c</fullName>
+        <externalId>false</externalId>
+        <label>OAuth Token</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>password__c</fullName>
+        <externalId>false</externalId>
+        <label>Password</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>username__c</fullName>
+        <externalId>false</externalId>
+        <label>Username</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>QualityCloudsApiSettings</label>
+    <visibility>Protected</visibility>
+</CustomObject>
